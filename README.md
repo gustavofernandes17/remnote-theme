@@ -1,2 +1,2 @@
 # remnote-theme
-a theme for remnote
+my custom css configuration for remnote
