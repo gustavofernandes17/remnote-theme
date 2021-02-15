@@ -1,0 +1,176 @@
+/*font configuration*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+ 	font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif; 
+}
+
+
+
+/*Portals and search configuration*/
+#hierarchy-editor .portal-rem--blue, #hierarchy-editor .portal-rem--embedded-search { 
+	background-color: #EBF1F5;
+	
+}
+
+#hierarchy-editor .portal-rem {
+	border-color: #EBF1F5;  
+	color: #222; 
+}
+
+#hierarchy-editor .hierarchy-editor__after_portal--blue, #hierarchy-editor .indented-hierarchy-editor-rem--after-portal-embedded-search {
+	border-color: #EBF1F5;
+
+}
+
+
+#hierarchy-editor .portal-rem .portal-rem-top, #hierarchy-editor .portal-rem .portal-rem-top--embedded-search-top {
+	border-color: #EBF1F5; 
+}
+
+#no-search-results {
+	color: #222; 
+}
+
+#show-embedded-search-button, #hierarchy-editor .search-portal-tree-node {
+	border-color: #EBF1F5; 
+	background-color: #EBF1F5;
+}
+
+/*Sidebar config*/
+div#logo {
+ 	display: none; 
+ 
+}
+#DocumentationList .document-list-item--opened, #documentList .document-list-item--opened {
+	border-left-color: #e9e9ed;
+	color: #37352F; 
+
+}
+
+
+div#document-sidebar__collapse-icon__container {
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	
+}
+
+#document-sidebar__account-capsule__text {
+	height: 25px !important;
+	width: 25px !important; 
+	
+}
+
+span.document-sidebar__account-capsule__name {
+
+  display: none
+}
+
+div#document-sidebar__account-capsule:hover {
+	background-color: #F7F6F3; 
+}
+
+#homepage #content #document-sidebar, #main #content #document-sidebar {
+	background-color: #fff; 
+	border-color: #eee; 
+}
+
+#document-sidebar {
+	border: solid 1px #efefef; 
+}
+
+.document-list-item {
+	color: #AAA9A5; 
+
+}
+#document-sidebar__link {
+	border-radius: 2px;
+
+}
+
+#document-sidebar__link,
+#document-sidebar__document-buttons__document-link-container, 
+.document-list-header
+{
+	text-transform: uppercase;
+	
+	
+}
+
+/*Text configuration*/
+
+
+/*Document*/
+.concept_rem_type {
+	color: #AAC53C; 
+	font-weight: 800; 
+}
+.descriptor_rem_type {
+	color: #EE7945;
+	font-weight: 600; 
+}
+
+#hierarchy-editor .TreeNode--list--in-card-content {
+    border-color: #738694;
+    border-width: 1.5px;
+}
+
+
+.document-title {
+	font-weight: 600;
+}
+.rem-text {
+	color: #202B33; 
+}
+
+.rem-bullet {
+	background-color: #414C53;
+}
+
+.rem-header--1, .rem-header--2, .rem-header--3 {
+	font-weight: 600;
+	background-color: #fff;
+}
+
+.rem-reference-link {
+	color: #48AFF0;
+}
+
+.rem-indented-indicator {
+	display: none;
+}
+
+#hierarchy-editor .TreeNode {
+	border-color: #D0D9E0; 
+}
+
+/*scrollbar config*/
+
+/* width */
+::-webkit-scrollbar {
+  	width: 6px;
+  
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+   
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 5px;
+
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
